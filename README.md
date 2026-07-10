@@ -1,34 +1,14 @@
-# JRP Industries Corporate Website — Phase 1 v1
+# JRP Industries Corporate Website — Phase 1 v3
 
-Production-ready static corporate website for `https://jrphub.com`.
+A redesigned, content-led corporate website built with HTML, CSS and vanilla JavaScript.
 
-## Stack
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- GitHub Pages compatible
+## Key design direction
+- Human-scale typography instead of oversized display text
+- Editorial corporate layout with restrained colours
+- Detailed and realistic business content
+- Text-only JRP Industries identity; no image logo
+- Direct navigation to Apps, Sarees and Oil subdomains
+- Responsive and GitHub Pages compatible
 
-## Pages
-- Home
-- About
-- Industries
-- Apps
-- Careers
-- Contact
-
-## Deployment
-Upload all files and folders to the root of the GitHub Pages repository. Ensure the custom domain is configured as `jrphub.com`.
-
-## Before public launch
-1. Replace phone and office address placeholders.
-2. Connect the contact form to Formspree, Brevo, or a backend endpoint.
-3. Add real social media profile links.
-4. Add final Privacy Policy and Terms pages.
-5. Replace abstract SVG illustrations with approved brand photography if desired.
-6. Add a `CNAME` file containing `jrphub.com` if GitHub Pages requires it.
-
-
-## Phase 1 v2 update
-- Text-only JRP Industries identity; no image logo is included.
-- Main navigation: Home, About, Industries, Apps, Sarees, Oil, Contact, Careers.
-- Apps, Sarees and Oil link directly to their respective subdomains.
+## Publish
+Copy all files to the root of the `jrphub-website` repository, commit and push to `main`.

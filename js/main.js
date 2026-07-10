@@ -1,5 +1,5 @@
-const header=document.querySelector('.site-header');const nav=document.querySelector('.nav-links');const toggle=document.querySelector('.menu-toggle');
-const updateHeader=()=>header?.classList.toggle('scrolled',window.scrollY>20);updateHeader();window.addEventListener('scroll',updateHeader,{passive:true});
-toggle?.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',open)});nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
-document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
-const form=document.querySelector('[data-contact-form]');form?.addEventListener('submit',e=>{e.preventDefault();const toast=document.querySelector('.toast');toast.style.display='block';form.reset();setTimeout(()=>toast.style.display='none',3500)});
+const toggle=document.querySelector('.nav-toggle');const menu=document.querySelector('.nav-menu');if(toggle&&menu){toggle.addEventListener('click',()=>{const open=menu.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));});}const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target);}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));const form=document.querySelector('[data-contact-form]');if(form){form.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(form);const subject=encodeURIComponent(`${d.get('area')} - ${d.get('name')}`);const body=encodeURIComponent(`Name: ${d.get('name')}
+Email: ${d.get('email')}
+Area: ${d.get('area')}
+
+${d.get('message')}`);window.location.href=`mailto:support@jrphub.com?subject=${subject}&body=${body}`;});}
