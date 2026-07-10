@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jrphub.com/sitemap.xml
