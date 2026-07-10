@@ -26,3 +26,9 @@ Upload all files and folders to the root of the GitHub Pages repository. Ensure 
 4. Add final Privacy Policy and Terms pages.
 5. Replace abstract SVG illustrations with approved brand photography if desired.
 6. Add a `CNAME` file containing `jrphub.com` if GitHub Pages requires it.
+
+
+## Phase 1 v2 update
+- Text-only JRP Industries identity; no image logo is included.
+- Main navigation: Home, About, Industries, Apps, Sarees, Oil, Contact, Careers.
+- Apps, Sarees and Oil link directly to their respective subdomains.
