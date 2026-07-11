@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://jrphub.com/</loc></url>
-<url><loc>https://jrphub.com/about.html</loc></url>
-<url><loc>https://jrphub.com/industries.html</loc></url>
-<url><loc>https://jrphub.com/apps.html</loc></url>
-<url><loc>https://jrphub.com/careers.html</loc></url>
-<url><loc>https://jrphub.com/contact.html</loc></url>
+  <url><loc>https://jrphub.com/</loc><lastmod>2026-07-11</lastmod></url>
+  <url><loc>https://jrphub.com/about.html</loc><lastmod>2026-07-11</lastmod></url>
+  <url><loc>https://jrphub.com/industries.html</loc><lastmod>2026-07-11</lastmod></url>
+  <url><loc>https://jrphub.com/apps.html</loc><lastmod>2026-07-11</lastmod></url>
+  <url><loc>https://jrphub.com/careers.html</loc><lastmod>2026-07-11</lastmod></url>
+  <url><loc>https://jrphub.com/contact.html</loc><lastmod>2026-07-11</lastmod></url>
 </urlset>
